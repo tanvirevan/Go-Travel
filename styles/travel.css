@@ -208,12 +208,12 @@ ul li .home
       }
    
    /* Your Destination start */
-   .destination, .Choose
+   .destination, .Choose, .Deals
       {
          margin-top: 100px;
          margin-bottom: 100px;
       }
-   .destination-title, .Choose-title
+   .destination-title, .Choose-title, .Deals-title
       {
          font-size: 40px;
          font-weight: 800;
@@ -221,7 +221,7 @@ ul li .home
          text-align: center;
          margin-bottom: 24px;
       }
-   .destination-des, .Choose-des
+   .destination-des, .Choose-des, .Deals-des
       {
          font-size: 16px;
          font-weight: 400;
@@ -307,6 +307,18 @@ ul li .home
       {
          display: flex;
          gap: 24px;
+      }
+   
+   /* Deals Start */
+   .Deals-1,.Deals-2,.Deals-3
+      {
+         width: 100%;
+         margin-bottom: 24px;
+         border-radius: 16px;
+      }
+   .Deals-1 img, .Deals-2 img, .Deals-3 img 
+      {
+         width: 100%;
       }
 
 
