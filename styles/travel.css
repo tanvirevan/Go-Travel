@@ -151,32 +151,32 @@ ul li .home
 
 /* Start Main Section */
    /* Start Popular Tours */
-   .popular-tours
+   .popular-tours , .Simple-place
       {
          margin-top: 100px;
          display: flex;
          justify-content: space-between;
       }
-   .popular-tours-info
+   .popular-tours-info, .Simple-place-info
       {
          justify-content: center;
          align-items: center;
          width: 50%;
       }
-   .tours-info-title
+   .tours-info-title, .Simple-place-title
       {
          font-weight: 800;
          color: #131318;
          font-size: 40px;
          margin-bottom: 24px;
       }
-   .tours-info-des
+   .tours-info-des, .Simple-place-des
       {
          font-size: 16px;
          font-weight: 400;
          color: #1313189f;
       }
-   .pointout
+   .pointout, .Simple-place-pointout
       {
          margin-left: 10px;
          margin-top: 24px;
@@ -202,7 +202,7 @@ ul li .home
          font-size: 16px;
          margin-bottom: 20px;
       }
-   .popular-tours-img img
+   .popular-tours-img img, .Simple-place-img img
       {
          width: 100%;
       }
@@ -310,17 +310,96 @@ ul li .home
       }
    
    /* Deals Start */
+   .Choose-Deals
+      {
+         justify-content: center;
+         align-items: center;
+      }
    .Deals-1,.Deals-2,.Deals-3
       {
-         width: 100%;
          margin-bottom: 24px;
          border-radius: 16px;
+         position: relative;
       }
    .Deals-1 img, .Deals-2 img, .Deals-3 img 
       {
          width: 100%;
       }
+   
+   .Deals-card
+      {
+         position: absolute;
+         background-color: #ffffffe3;
+         padding-left: 50px;
+         padding-right: 77px;
+         padding-top: 50px;
+         padding-bottom: 48px;
+         width: 36rem;
+         height: 20rem;
+         margin-left: 50rem;
+         margin-top: 9rem;
+         border-radius: 16px;
+         display: flex;
+         align-items: center;
 
+      }
+   .Deals-card-2
+      {
+         margin-left: 5rem;
+      }
+   .info 
+      {
+         display: flex;
+         gap: 24px;
+         margin-bottom: 24px;
+         color: #5A5A5D;
+         font-size: 16px;
+         font-weight: 400;
+      }
+   .C-color
+      {
+         color: #FF5400;
+         margin-right: 5px;
+      }
+   .deals-title
+      {
+         color: #131318;
+         font-size: 24px;
+         font-weight: 800;
+         margin-bottom: 16px;
+      }
+   .deals-des
+      {
+         color: #5A5A5D;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 16px;
+      }
+   .deals-price
+      {
+         color: #FF5400;
+         font-size: 20px;
+         font-weight: 800;
+      }
+   .Packages-btn
+      {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+   /* Start Simple place */
+   /* Other some style with popular-tours */
+   .Simple-place
+      {
+         margin-bottom: 130px;
+      }
+   .Simple-place-pointout li
+      {
+         font-size: 16px;
+         font-weight: 700;
+         margin-bottom: 10px;
+      }
+   
 
 /* Responsive for mobile */
 @media screen and (max-width: 600px) 
@@ -370,25 +449,25 @@ ul li .home
             width: 255px;
          }
       /* main section start */
-      .popular-tours
+      .popular-tours, .Simple-place
          {
             margin-top: 24px;
             flex-direction: column;
          }
-      .popular-tours-info
+      .popular-tours-info, .Simple-place-info
          {
             width: 100%;
          }  
-      .tours-info-title
+      .tours-info-title, .Simple-place-title
          {
             font-size: 20px;
             margin-bottom: 16px;
          }
-      .tours-info-des
+      .tours-info-des, .Simple-place-des
          {
             font-size: 14px;
          }
-      .pointout
+      .pointout, .Simple-place-pointout
          {
             font-size: 14px;
          }
@@ -450,4 +529,48 @@ ul li .home
             margin-top: 24px;
          }
       
+      /* Start Deals */
+      .Deals-1 img, .Deals-2 img, .Deals-3 img 
+         {
+            height: 31rem;
+            border-radius: 20px;
+         }
+      .Deals-card
+         {
+            padding: 10px 15px;
+            width: 310px;
+            height: 350px;
+            margin-left: 1rem;
+            margin-top: 6rem;
+         }
+      .info
+         {
+            font-size: 14px;
+            font-weight: 400;
+         }
+      .deals-title
+         {
+            color: #131318;
+            font-size: 20px;
+            font-weight: 800;
+         }
+      .deals-des
+         {
+            color: #5A5A5D;
+            font-size: 14px;
+            font-weight: 400;
+         }
+      .deals-price
+         {
+            font-size: 16px;
+            font-weight: 800;
+         }
+      .book-btn
+         {
+            width: 130px;
+            height: 40px;
+            padding: 8px 20px;
+         }
+      /* Start Simple place */
+
    }
