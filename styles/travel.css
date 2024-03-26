@@ -491,6 +491,32 @@ ul li .home
          font-weight: 800;
          color: #FFFFFF;
       }
+   /* Start footer */
+   .footer
+      {
+         background-color: #f3f3f3;
+         height: 502px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+   .footer p
+      {
+         text-align: center;
+         margin-top: 15px;
+      }
+   .link
+      {
+         display: flex;
+         justify-content: center;
+         margin-top: 32px;
+         margin-bottom: 50px;
+         gap: 32px;
+      }
+   .link hr
+      {
+         margin-bottom: 32px;
+      }
 /* Responsive for mobile */
 @media screen and (max-width: 600px) 
    {
