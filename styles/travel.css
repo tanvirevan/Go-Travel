@@ -391,7 +391,7 @@ ul li .home
    /* Other some style with popular-tours */
    .Simple-place
       {
-         margin-bottom: 130px;
+         margin-bottom: 100px;
       }
    .Simple-place-pointout li
       {
@@ -399,8 +399,98 @@ ul li .home
          font-weight: 700;
          margin-bottom: 10px;
       }
-   
+   /* Start News and Offer */
+   .News-Offer
+      {
+         display: flex;
+         margin-bottom: 100px;
+         gap: 24px;
+      }
+   .Newsletter
+      {
+         width: 40%;
+         border: 1px solid #FF5400;
+         border-radius: 16px;
+         padding: 40px;
+      }
+   .News-title
+      {
+         font-size: 24px;
+         font-weight: 800;
+         margin-bottom: 16px;
+      }
+   .News-des
+      {
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 24px;
+      }
+   .Newsletter hr
+      {
+         margin-bottom: 24px;
+      }
+   .Offer
+      {
+         width: 60%;
+         border-radius: 16px;
+      }
+   .Offer img
+      {
+         width: 100%;
+         height: 450px;
+         border-radius: 16px;
+      }
+   .Newsletter input
+      {
+         margin-bottom: 16px;
+         border-radius: 8px;
+         width: 97%;
+         height: 20px;
+         background-color: #f3f3f3;
+         border: none;
 
+      }
+   .Newsletter input
+      {
+         font-size: 16px;
+         font-weight: 400;
+         color: #1313181f;
+         padding-left: 20px;
+         padding-top: 16px;
+         padding-bottom: 16px;
+      }
+   .Subscribe-btn
+      {
+         margin-top: 8px;
+         width: 100%;
+         height: 52px;
+         padding: 14px 148px;
+      }
+   .Offer-info
+      {
+         position: absolute;
+         background-color: #FF5400;
+         width: 324px;
+         height: 120px;
+         border-radius: 16px;
+         text-align: center;
+         margin-top: 270px;
+         margin-left: 555px;
+         transform: rotate(-25deg);
+      }
+   .Offer-info p
+      {
+         margin-top: 23px;
+         font-size: 24px;
+         font-weight: 400;
+         color: #FFFFFF;
+      }
+   .Offer-info h3
+      {
+         font-size: 32px;
+         font-weight: 800;
+         color: #FFFFFF;
+      }
 /* Responsive for mobile */
 @media screen and (max-width: 600px) 
    {
@@ -572,5 +662,57 @@ ul li .home
             padding: 8px 20px;
          }
       /* Start Simple place */
+         /* All Style with populer-tours */
+         .Simple-place
+            {
+               margin-bottom: 24px;
+            }
+      /* End Simple place */
+
+      /* Start News and Offer */
+      .News-Offer
+         {
+            flex-direction: column;
+            margin-bottom: 24px;
+         }
+      .Newsletter
+         {
+            width: 292px;
+         }
+      .News-title
+         {
+            font-size: 20px;
+         }
+      .News-des
+         {
+            font-size: 14px;
+         }
+      .Subscribe-btn
+         {
+            padding: 14px 96px;
+            width: 300px;
+         }
+      .Offer
+         {
+            width: 100%;
+         }
+      .Offer-info
+         {
+            width: 214px;
+            height: 80px;
+            margin-top: 332px;
+            margin-left: 155px;
+            transform: rotate(-25deg);
+         }
+      .Offer-info p 
+         {
+            font-size: 15px;
+            margin-top: 15px;
+         }
+      .Offer-info h3 
+         {
+            font-size: 21px;
+         }
+
 
    }
